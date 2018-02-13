@@ -33,7 +33,3 @@ body {
 	);
 	background: -moz-repeating-linear-gradient(left, #00d2ff, #928dab);
 }
-.parallax {
-	background-image: url("general_conference.jpg");
-	height: 500px;
-	background-attachment: scroll;
