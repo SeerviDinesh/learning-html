@@ -1,0 +1,39 @@
+body {
+	width: 100%;
+}
+.half-grad {
+	width: 100%;
+	height: 300px;
+	/* Safari 5.1, Chrome 10+ */
+	background: -webkit-gradient(
+		radial,
+		center center,
+		0,
+		center center,
+		460,
+		to(#70aa5d),
+		from(#356444)
+	);
+}
+.grad-2 {
+	height: 300px;
+	background: -webkit-repeating-linear-gradient(
+		bottom left,
+		#f26c74,
+		#ff9068
+	);
+}
+.grad-3 {
+	height: 300px;
+	/*background-image: -webkit-repeating-linear-gradient(black, white);*/
+	background: -webkit-repeating-linear-gradient(
+		left top,
+		#00d2ff,
+		#928dab
+	);
+	background: -moz-repeating-linear-gradient(left, #00d2ff, #928dab);
+}
+.parallax {
+	background-image: url("general_conference.jpg");
+	height: 500px;
+	background-attachment: scroll;
